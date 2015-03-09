@@ -21,7 +21,7 @@ define([
     }
   });
   
-  var initialize = function(){
+  var initialize = function () {
 
     var app_router = new AppRouter;
     var navViewModel = new NavViewModel;
@@ -50,7 +50,7 @@ define([
       document.getElementsByClassName("navbar-inner")[0]
     );
 
-  React.renderComponent(
+    React.renderComponent(
       <FooterView />,
       document.getElementById("footer")
     );
